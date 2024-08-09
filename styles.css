@@ -40,7 +40,7 @@ body {
 .logoBar {
     background-color: rgb(175, 173, 173);
     opacity: 0.5;
-    height: 100px;
+    height: 250px;
     width: 100%;
 }
 
@@ -65,9 +65,21 @@ body {
 .form-space-top {}
 
 .form-space-middle {
-    height: 400px;
+    height: 500px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(173, 157, 157);
+    
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding: 10px;
 }
 
 .form-space-bottom {}
