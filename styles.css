@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'logofont'; /*a name to be used later*/
+    src: url("fonts/Norse-Bold.otf"); /*URL to font*/
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+   
+    
+}
+
+.logo-space,
+.form-space {
+    
+    display: flex;
+    
+    
+}
+
+.logo-space {
+    
+    flex: 1 1 0;
+    max-width: 33%;
+   
+}
+
+.background-graphic {
+    position: absolute;
+    height: 100%;
+    width:auto;
+    z-index: -1;
+ 
+
+}
+
+.form-space {
+    flex: 1.5 1 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(175, 173, 173);
+    min-width: 35ch;
+
+}
+
