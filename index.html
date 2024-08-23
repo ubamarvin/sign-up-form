@@ -36,20 +36,20 @@
 
                         <div class="input-group">
                             <label for="first_name">First Name</label>
-                            <input id="first_name" type="text" value="" name="first_name">
+                            <input id="first_name" type="text" value="" name="first_name" required>
                         </div>
 
 
                         <div class="input-group">
                             <label for="email">Email</label>
-                            <input id="email" type="text" value="" name="email">
+                            <input id="email" type="email" value="" name="email" required>
                         </div>
 
 
 
                         <div class="input-group">
-                            <label for="pw1">Email</label>
-                            <input id="pw1" type="text" value="" name="password">
+                            <label for="user_password">Password</label>
+                            <input id="pw1" type="password" value="" name="password" required>
                         </div>
                     </div>
 
@@ -60,22 +60,22 @@
                         <div class="input-group">
 
                             <label for="last_name">Last Name</label>
-                            <input id="last_name" type="text" value="" name="last_name">
+                            <input id="last_name" type="text" value="" name="last_name" required>
                         </div>
 
 
                         <div class="input-group">
 
                             <label for="phone_number">Phone Number</label>
-                            <input id="phone_number" type="tel" name="phone_number"
-                                >
+                            <input id="phone_number" type="tel" name="phone_number" required
+                            pattern="[0-9]{3} [0-9]{3} [0-9]{4}" placeholder="999 999 9999">
                         </div>
 
 
                         <div class="input-group">
 
-                            <label for="pw2">Email</label>
-                            <input id="pw2" type="text" value="" name="">
+                            <label for="user_password2">Confirm Password</label>
+                            <input id="user_password2" type="password" value="" name="password" required>
                         </div>
 
 

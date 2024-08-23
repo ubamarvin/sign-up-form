@@ -158,6 +158,18 @@ h3 , button {
 .input-group input:focus {
     border: 1px hsla(130, 20%, 25%, 0.2);
     background-color: hsla(130, 20%, 25%, 1);
+}
+
+.input-group input:invalid {
+    border: 2px solid;
+    border-color: red;
+    border-radius: 5px;
+}
+
+.input-group input:valid {
+    border: 2px solid;
+    border-color: green;
+    border-radius: 5px;
 
 }
 
